@@ -1,0 +1,259 @@
+	/* ----------- Begin CSS -----------  */
+	
+	body {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;	
+	margin: 0px;
+	background-color: #f1f1f1;
+	}
+	
+	h1 {
+	color: #35acd7;
+	font-size: 52px;
+	font-weight: 700;
+	margin: 0;
+	}
+	
+	h2 {
+	font-size: 42px;
+	
+	}
+	
+	
+	h3 {
+	font-size: 32px;
+	margin: 0px;
+	color: #686868;
+	padding-top: 10px;
+	}
+	
+	
+	h4 {
+	font-size: 22px;
+	}
+	
+	
+	h5 {
+	font-size: 18px;
+	}
+	
+	
+	h6 {
+	font-size: 12px;
+	}
+		
+	/* ----------- Navigation / Header -----------  */	
+				
+	.container {
+	background: url(http://i.imgur.com/w1T59Du.jpg) no-repeat center;
+	height: 508px;
+	}
+	
+	
+	#fake_nav {
+   /* position: fixed; */
+	}
+	
+	
+	.nav {
+    left: 0;
+    min-width: 1160px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+	}
+	
+	
+	.nav-container {
+    margin: 0 auto;
+    width: 1160px;
+	}
+	
+	
+	.nav ul {
+    display: block;
+    float: right;
+    margin: 0;
+    padding: 28px 0 0;
+    position: relative;
+	}
+	
+
+	ol, ul {
+    list-style: outside none none;
+	}	
+
+
+	.nav ul li {
+    display: block;
+    float: left;
+    margin: 0 0 0 25px;
+    padding: 0;
+	}
+	
+	
+	.nav ul li a {
+    color: #f1f1f1;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    height: 21px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+	}
+	
+	.nav ul li a:hover {
+    color: #35acd7;
+    
+	}
+	
+	
+	/* ----------- Main -----------  */
+	
+	
+	
+	.bio-pic {
+	padding: 38px;
+	}
+	
+	
+	.circular-image {
+	width: 270px;
+	height: 270px;
+	border: .5em solid white;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	background: url(http://i.imgur.com/Fw9knzM.png) no-repeat center;
+	background-size: 150px;
+	background-color: #D4D4D4;
+	margin-top: 238px
+	}
+	
+	
+	.name {
+	margin: 180px 0px 40px 0px;
+	}
+	
+	.attr {
+	margin-bottom: 0px;
+	      }
+	
+	.column1 {
+	display: inline-block;
+	width: 400px;
+	height: 60px;
+	background-color:#D4D4D4;
+	margin: 40px 20px 10px 0px;
+	
+	/*border: .5em solid white; */
+	}
+	
+	.column2 {
+	display: inline-block;
+	width: 400px;
+	height: 60px;
+	background-color:#D4D4D4;
+	margin: 40px 20px 10px 20px;
+	/*border: .5em solid white; */
+	}
+	
+	.column3 {
+	display: inline-block;
+	width: 400px;
+	height: 60px;
+	background-color:#D4D4D4;
+	margin: 40px 0px 10px 20px;
+	/*border: .5em solid white; */
+	}
+	
+	.column4 {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	background-color:#D4D4D4;
+	margin: 0px 20px 0px 0px;
+	/*border: .5em solid white; */
+	
+	}
+	
+	.column5 {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	background-color:#D4D4D4;
+	margin: 0px 20px 0px 20px;
+	/*border: .5em solid white; */
+	}
+	
+	.column6 {
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	background-color:#D4D4D4;
+	margin: 0px 0px 0px 20px;
+	/*border: .5em solid white; */
+	}
+	
+	
+	.contents li {
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	list-style-type: initial;
+	list-style-position: inside;
+	margin-left: -40px;
+	}
+	
+	
+	.about-me {
+	margin-top: 80px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 400px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.more-about-me {
+	padding-top: 40px;
+	height: 400px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.education {
+	display: inline-block;
+	margin: 80px -4px 0px 0px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.experience {
+	display: inline-block; 	
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
