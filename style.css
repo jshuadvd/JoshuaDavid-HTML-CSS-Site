@@ -231,6 +231,79 @@
 	}
 	
 	
+	/* ----------- Information -----------  */
+	
+	
+	.left-article {
+	margin: 0px ;
+	width: 41%;
+	float: left;
+	display: inline-block;	
+	padding: 40px 40px;	
+	/* padding: 90px 20px 20px 40px;	*/
+	}
+		
+	
+	.right-article {
+	margin: 0px ;
+	width: 41%;
+	float:right;
+	display: inline-block;	
+	padding: 40px 40px;
+	/* padding: 80px 0px 20px 120px; */	
+	}
+	
+	.left-article p {
+		color: #686868;
+		
+	}
+	
+	.right-article p {
+		color: #686868;
+		
+	}
+	
+	
+	
+	.left-article-new {
+	margin: 0px ;
+	width: 700px;
+	display: inline-block;		
+	padding: 60px 20px 10px 40px;	
+	}
+		
+	
+	.right-article-new {
+	margin: 0px ;
+	width: 700px;
+	display: inline-block;	
+	padding: 0px 0px 0px 40px;	
+	}
+	
+	.left-article-new p {
+		color: #686868;
+		
+	}
+	
+	.right-article-new p {
+		color: #686868;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* ----------- Education -----------  */
+	
+	
 	.education {
 	display: inline-block;
 	margin: 80px -4px 0px 0px;
@@ -255,6 +328,33 @@
 	color: #686868;
 	text-align: center;
 	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	.education-new {
+	display: inline-block;
+	margin: 80px -4px 0px 0px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.experience-new {
+	display: inline-block; 	
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
 
@@ -350,5 +450,9 @@
     color: #35acd7;
     
 	}
+	
+	
+
+
 
 
