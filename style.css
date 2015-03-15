@@ -263,20 +263,30 @@
 		
 	}
 	
-	
+	.left-column {
+		width: 718px;
+		float: left;
+
+	}
+			
 	
 	.left-article-new {
 	margin: 0px ;
-	width: 700px;
-	display: inline-block;		
+	display: block;
 	padding: 60px 20px 10px 40px;	
+	}
+		
+		
+	.right-column {
+		margin: 0px;
+		width: 700px;
+		float: right;
 	}
 		
 	
 	.right-article-new {
 	margin: 0px ;
-	width: 700px;
-	display: inline-block;	
+	display: block;	
 	padding: 0px 0px 0px 40px;	
 	}
 	
@@ -290,7 +300,15 @@
 		
 	}
 	
+	.right-image {
+		width:auto;
+		padding: 80px 70px 0px 10px;
+		background-size: 800px;		
+	}
 	
+	.clear {
+    clear: both;
+	}
 	
 	
 	
