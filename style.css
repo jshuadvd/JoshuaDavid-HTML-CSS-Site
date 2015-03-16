@@ -331,58 +331,82 @@
 	/* ----------- Hex -----------  */
 	
 	
-	.hex-image .img {
-		padding-left: 10px;
+	.hex-image  {
+		padding-top: 70px;
 	}
 	
 	
 	.hexy-hex {
 	position: relative;
-	margin-top: 80px;
+	margin-top: 60px;
 	height: 900px;
 		
 	}
 		
 	.hexy-hex-2 {
 	position: relative;
-	top: -50px;	
+	top: -45px;	
 	}
 	
 	.hexy-hex-3 {
 	position: relative;
-	top: -50px;	
+	top: -45px;	
 	}
 	
 	.hexy-hex-4 {
 	position: relative;
-	top: -50px;	
+	top: -45px;	
 	}
 	
 	.hexy-hex-5 {
 	position: relative;
-	top: -50px;	
-	}
-
-	
-	.lt-grey-hex {
-	margin: 0px;
-			
-	}
+	top: -45px;	
+	}	
 	
 	.lt-blue-hex {
-	margin: 0px;
-				
+	margin: 0px;				
 	}
+	
 	
 	.drk-grey-hex {
-	margin: 0px;
-		
+	margin: 0px;		
 	}
 	
+	.lt-grey-hex {
+	margin: 0px;			
+	}
+	
+	#Spirituality {
+	background-image: url('images/blue-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Spirituality:hover {
+	background-image: url('images/blue-spirituality.png');
+	}
+	
+	/* #Honesty {
+	position: relative;
+	background-image: url('images/images/dark-grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Honesty:hover {
+	background-image: url('images/blue-spirituality.png');
+	}
 
 	
-	
-	
+	#Innovation {
+	background-image: url('images/images/grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Innovation:hover {
+	background-image: url('images/blue-spirituality.png');
+	} */
 	
 	
 	
