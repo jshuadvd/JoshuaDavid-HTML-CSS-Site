@@ -326,6 +326,65 @@
 	
 	
 	
+	/* ----------- Hex -----------  */
+	
+	.hexy-hex {
+	position: relative;
+	margin-top: 80px;
+	height: 900px;
+		
+	}
+	
+	
+	.hexy-hex-2 {
+	position: relative;
+	top: -40px;	
+	}
+	
+	.hexy-hex-3 {
+	position: relative;
+	top: -40px;	
+	}
+	
+	.hexy-hex-4 {
+	position: relative;
+	top: -40px;	
+	}
+	
+	.hexy-hex-5 {
+	position: relative;
+	top: -40px;	
+	}
+
+	
+
+	
+	
+	.lt-grey-hex {
+	margin: 0px;
+			
+	}
+	
+	.lt-blue-hex {
+	margin: 0px;
+				
+	}
+	
+	.drk-grey-hex {
+	margin: 0px;
+		
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/* ----------- Information -----------  */
 	
 	
