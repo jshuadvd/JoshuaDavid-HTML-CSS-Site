@@ -174,8 +174,12 @@
 	height: 300px;
 	background-color:#D4D4D4;
 	margin: 0px 20px 0px 0px;
-	/*border: .5em solid white; */
+	/*border: .5em solid white; */	
+	}
 	
+	.column4 ul {
+	padding-left: 30px;
+	/*border: .5em solid white; */	
 	}
 	
 	.column5 {
@@ -187,6 +191,12 @@
 	/*border: .5em solid white; */
 	}
 	
+	.column5 ul {
+	padding-left: 55px;
+	/*border: .5em solid white; */	
+	}
+	
+	
 	.column6 {
 	display: inline-block;
 	width: 400px;
@@ -196,11 +206,17 @@
 	/*border: .5em solid white; */
 	}
 	
+	.column6 ul {
+	padding-left: 105px;
+	/*border: .5em solid white; */	
+	}
+	
 	
 	.contents li {
 	font-size: 24px;
 	color: #686868;
-	text-align: center;
+	text-align: left;
+	padding-left: 60px;
 	list-style-type: initial;
 	list-style-position: inside;
 	margin-left: -40px;
@@ -229,6 +245,10 @@
 	background-color: #D4D4D4;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
+	
+	
+	
+	
 	
 	
 	
@@ -332,7 +352,7 @@
 	
 	
 	.hex-image  {
-		padding-top: 70px;
+		padding-top: 40px;
 	}
 	
 	
@@ -376,42 +396,189 @@
 	margin: 0px;			
 	}
 	
+	/* ----------- Hex Hover -----------  */
+	
+	
 	#Spirituality {
-	background-image: url('images/blue-hex-up-sm.png');
+	background-image: url('http://i.imgur.com/DPTzosk.png');
 	height: 200px;
 	width: 175px;
 	}
 
 	#Spirituality:hover {
-	background-image: url('images/blue-spirituality.png');
+	background-image: url('http://i.imgur.com/Ha9YgEG.png');
 	}
 	
-	/* #Honesty {
+	#Honesty {
+	display: inline-block;
 	position: relative;
-	background-image: url('images/images/dark-grey-hex-up-sm.png');
+	background-image: url('http://i.imgur.com/n87uvmk.png');
 	height: 200px;
 	width: 175px;
 	}
 
 	#Honesty:hover {
-	background-image: url('images/blue-spirituality.png');
+	background-image: url('images/dark-grey-honesty.png');
 	}
 
-	
+
 	#Innovation {
-	background-image: url('images/images/grey-hex-up-sm.png');
+	display: inline-block;
+	background-image: url('http://i.imgur.com/vCNrceH.png');
 	height: 200px;
 	width: 175px;
 	}
 
 	#Innovation:hover {
-	background-image: url('images/blue-spirituality.png');
-	} */
+	background-image: url('images/grey-innovation.png');
+	} 
+	
+	#Love {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Love:hover {
+	background-image: url('images/grey-love.png');
+	}
+
+
+	#Respect {
+	display: inline-block;
+	background-image: url('images/blue-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Respect:hover {
+	background-image: url('images/blue-respect.png');
+	} 
+	
+	#Drive {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/dark-grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Drive:hover {
+	background-image: url('images/dark-grey-drive.png');
+	}
 	
 	
+	#Honor {
+	display: inline-block;
+	background-image: url('images/blue-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Honor:hover {
+	background-image: url('images/blue-honor.png');
+	} 
+	
+	#Devotion {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/dark-grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Devotion:hover {
+	background-image: url('images/dark-grey-devotion.png');
+	}
+	
+	#Integrity {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Integrity:hover {
+	background-image: url('images/grey-integrity.png');
+	}
+	
+	#Wisdom {
+	display: inline-block;
+	background-image: url('images/blue-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Wisdom:hover {
+	background-image: url('images/blue-wisdom.png');
+	} 
+
+	#Passion {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/dark-grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Passion:hover {
+	background-image: url('images/dark-grey-passion.png');
+	}
+	
+	#Virtue {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Virtue:hover {
+	background-image: url('images/grey-virtue.png');
+	}
+	
+	#Perseverence {
+	display: inline-block;
+	background-image: url('images/blue-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Perseverence:hover {
+	background-image: url('images/blue-perseverence.png');
+	} 
 	
 	
+	#Humility {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Humility:hover {
+	background-image: url('images/grey-humility.png');
+	}
 	
+	#Giving {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/dark-grey-hex-up-sm.png');
+	height: 200px;
+	width: 175px;
+	}
+
+	#Giving:hover {
+	background-image: url('images/dark-grey-giving.png');
+	}
+
+	
+	
+		
 	
 	/* ----------- Information -----------  */
 	
