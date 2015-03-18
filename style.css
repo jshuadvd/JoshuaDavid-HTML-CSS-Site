@@ -767,6 +767,18 @@
     margin: 0px 10px 0px 80px;
 	}
 	
+	.social-media-icons {
+	width: 250px;
+	padding-top: 85px; 
+	position: relative;
+	bottom: 50px;
+	
+	}
+	
+	.social-media-icons img {
+		
+	}
+		
 	.clear {
     clear: both;
 	}
@@ -789,7 +801,7 @@
 	.footer-nav ul {
     display: block;
     margin: 0;
-    padding: 28px 0 0;
+    padding: 28px 0 20px 0;
 
 	}
 	
