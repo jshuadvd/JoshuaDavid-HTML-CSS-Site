@@ -764,20 +764,58 @@
 	display: inline-block;
     padding-bottom: 30px;
     width: 370px;
-    margin: 0px 10px 0px 80px;
+    margin: 0px 10px 0px 75px;
 	}
 	
 	.social-media-icons {
-	width: 250px;
-	padding-top: 85px; 
+	width: 450px;
+	padding: 101px 80px 0px 0px; 
+	display: inline-block;
 	position: relative;
 	bottom: 50px;
+	right: 45px;
 	
 	}
-	
-	.social-media-icons img {
 		
+	.linkedin {
+	display:  inline-block;
+	position: relative;
+	background-image: url('images/linkedin_circle_black-44.png');
+	margin: 0px 15px;
+	height: 64px;
+	width: 64px;
 	}
+
+	.linkedin:hover {
+	background-image: url('images/linkedin_circle_black-44-blue.png');
+	}
+	
+	.github {
+	display: inline-block;	
+	position: relative;
+	background-image: url('images/githubl_circle_black-64.png');
+	margin: 0px 15px 0px 15px;
+	height: 64px;
+	width: 64px;
+	}
+
+	.github:hover {
+	background-image: url('images/githubl_circle_black-64-blue.png');
+	}
+	
+	.google-plus {
+	display: inline-block;
+	position: relative;
+	background-image: url('images/google-plus-64.png');
+	margin: 0px 15px;
+	height: 64px;
+	width: 64px;
+	}
+
+	.google-plus:hover {
+	background-image: url('images/google-plus-64-blue.png');
+	}
+	
 		
 	.clear {
     clear: both;
