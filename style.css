@@ -767,6 +767,20 @@
     margin: 0px 10px 0px 75px;
 	}
 	
+	
+	#quoteoftheday  {
+	font-size: 24px;
+	font-weight: 700;
+	position: relative;	
+		
+	}
+	
+	.quote {
+	position: relative;
+	bottom: 16px;
+		
+	}
+	
 	.social-media-icons {
 	width: 450px;
 	padding: 101px 80px 0px 0px; 
@@ -857,13 +871,13 @@
 	}
 	
 	
-	.footer-nav ul li a {
+	.footer-nav ul li a  {
     color: #f1f1f1;
     display: block;
     font-size: 22px;
     font-weight: 700;
     height: 21px;
-    line-height: 21px;
+    line-height: 2px;
     text-decoration: none;
     text-transform: uppercase;
 	}
@@ -872,6 +886,8 @@
     color: #35acd7;
     
 	}
+	
+	
 	
 	
 
