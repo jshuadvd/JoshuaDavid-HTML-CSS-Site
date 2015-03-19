@@ -385,8 +385,61 @@
 		width: 718px;
 		float: left;
 
+	}		
+
+	
+	.clear {
+    clear: both;
 	}
-			
+	
+	
+	
+	
+	/* ----------- Learn and Serve -----------  */
+	
+	
+	.learning {
+	display: inline-block;
+	margin: 80px -4px 0px 0px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 500px;
+	width: 717px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	.learning p {
+	margin: 0;	
+	padding: 0px 40px;
+		
+	}
+	
+	
+	.serving {
+	display: inline-block; 	
+	padding-top: 40px;
+	height: 500px;
+	width: 718px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	.serving p {
+	margin: 0;	
+	padding: 0px 40px;
+		
+	}
+	
+	
+	/* ----------- Learn and Serve -----------  */
+	
 	
 	.left-article-new {
 	margin: 0px ;
@@ -424,42 +477,9 @@
 		background-size: 800px;		
 	}
 	
-	.clear {
-    clear: both;
-	}
 	
+	/* ----------- Learn and Serve -----------  */
 	
-	
-	
-	/* ----------- Poor class choice name -----------  */
-	
-	
-	.education {
-	display: inline-block;
-	margin: 80px -4px 0px 0px;
-	/*margin-bottom: 10px; */
-	padding-top: 40px;
-	height: 400px;
-	width: 717px;
-	font-size: 24px;
-	color: #f1f1f1;
-	text-align: center;
-	background-color: #36AAD5;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
-	
-	
-	.experience {
-	display: inline-block; 	
-	padding-top: 40px;
-	height: 400px;
-	width: 718px;
-	font-size: 24px;
-	color: #686868;
-	text-align: center;
-	background-color: #D4D4D4;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
 	
 	.education-new {
 	display: inline-block;
@@ -489,6 +509,9 @@
 	}
 
 	
+	.clear {
+    clear: both;
+	}
 	
 	
 	
@@ -787,7 +810,7 @@
 	
 	}
 		
-	.linkedin {
+	#linkedin {
 	display:  inline-block;
 	position: relative;
 	background-image: url('images/linkedin_circle_black-44.png');
@@ -796,24 +819,27 @@
 	width: 64px;
 	}
 
-	.linkedin:hover {
+	#linkedin:hover {
 	background-image: url('images/linkedin_circle_black-44-blue.png');
 	}
 	
-	.github {
+	#github {
 	display: inline-block;	
 	position: relative;
 	background-image: url('images/githubl_circle_black-64.png');
 	margin: 0px 15px 0px 15px;
 	height: 64px;
 	width: 64px;
+	overflow:hidden;
+    text-indent:100%;
+    white-space:nowrap;
 	}
 
-	.github:hover {
+	#github:hover {
 	background-image: url('images/githubl_circle_black-64-blue.png');
 	}
 	
-	.google-plus {
+	#google-plus {
 	display: inline-block;
 	position: relative;
 	background-image: url('images/google-plus-64.png');
@@ -822,7 +848,7 @@
 	width: 64px;
 	}
 
-	.google-plus:hover {
+	#google-plus:hover {
 	background-image: url('images/google-plus-64-blue.png');
 	}
 	
