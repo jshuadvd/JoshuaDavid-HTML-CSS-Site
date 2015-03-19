@@ -236,19 +236,19 @@
 	}
 	
 	
+	
+	/* ----------- Actual Education Section -----------  */
+	
+	
 	.more-about-me {
 	padding-top: 40px;
-	height: 350px;
+	height: 360px;
 	font-size: 24px;
 	color: #686868;
 	text-align: center;
 	background-color: #D4D4D4;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
-	
-	
-	
-	
 	
 	
 	
@@ -346,9 +346,153 @@
 	top: .48em;
 	}
 	
+		
+		/* ----------- Information -----------  */
 	
 	
-	/* ----------- Hex -----------  */
+	.left-article {
+	margin: 0px ;
+	width: 40%;
+	height: 500px;
+	float: left;
+	display: inline-block;	
+	padding: 70px 40px 0px 40px;	
+	margin-bottom: -140px;
+	}
+		
+	
+	.right-article {
+	margin: 0px ;
+	width: 42%;
+	height: 500px;
+	float:right;
+	display: inline-block;	
+	padding: 70px 40px 0px 20px;
+	margin-bottom: -140px;
+	}
+	
+	.left-article p {
+		color: #686868;
+		
+	}
+	
+	.right-article p {
+		color: #686868;
+		
+	}
+	
+	.left-column {
+		width: 718px;
+		float: left;
+
+	}
+			
+	
+	.left-article-new {
+	margin: 0px ;
+	display: block;
+	padding: 60px 20px 10px 40px;	
+	}
+		
+		
+	.right-column {
+		margin: 0px;
+		width: 700px;
+		float: right;
+	}
+		
+	
+	.right-article-new {
+	margin: 0px ;
+	display: block;	
+	padding: 0px 0px 0px 40px;	
+	}
+	
+	.left-article-new p {
+		color: #686868;
+		
+	}
+	
+	.right-article-new p {
+		color: #686868;
+		
+	}
+	
+	.right-image {
+		width:auto;
+		padding: 80px 70px 0px 10px;
+		background-size: 800px;		
+	}
+	
+	.clear {
+    clear: both;
+	}
+	
+	
+	
+	
+	/* ----------- Poor class choice name -----------  */
+	
+	
+	.education {
+	display: inline-block;
+	margin: 80px -4px 0px 0px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.experience {
+	display: inline-block; 	
+	padding-top: 40px;
+	height: 400px;
+	width: 718px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	.education-new {
+	display: inline-block;
+	margin: 80px -4px 0px 0px;
+	/*margin-bottom: 10px; */
+	padding-top: 40px;
+	height: 400px;
+	width: 717px;
+	font-size: 24px;
+	color: #686868;
+	text-align: center;
+	background-color: #D4D4D4;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.experience-new {
+	display: inline-block; 	
+	padding-top: 40px;
+	height: 400px;
+	width: 718px;
+	font-size: 24px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: #36AAD5;
+	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
+	}
+
+	
+	
+	
+	
+	/* ----------- Ethical Values Hex -----------  */
 	
 	
 	.hex-image  {
@@ -577,156 +721,6 @@
 	}
 
 	
-	
-		
-	
-	/* ----------- Information -----------  */
-	
-	
-	.left-article {
-	margin: 0px ;
-	width: 40%;
-	height: 500px;
-	float: left;
-	display: inline-block;	
-	padding: 70px 40px 0px 40px;	
-	margin-bottom: -140px;
-	}
-		
-	
-	.right-article {
-	margin: 0px ;
-	width: 42%;
-	height: 500px;
-	float:right;
-	display: inline-block;	
-	padding: 70px 40px 0px 20px;
-	margin-bottom: -140px;
-	}
-	
-	.left-article p {
-		color: #686868;
-		
-	}
-	
-	.right-article p {
-		color: #686868;
-		
-	}
-	
-	.left-column {
-		width: 718px;
-		float: left;
-
-	}
-			
-	
-	.left-article-new {
-	margin: 0px ;
-	display: block;
-	padding: 60px 20px 10px 40px;	
-	}
-		
-		
-	.right-column {
-		margin: 0px;
-		width: 700px;
-		float: right;
-	}
-		
-	
-	.right-article-new {
-	margin: 0px ;
-	display: block;	
-	padding: 0px 0px 0px 40px;	
-	}
-	
-	.left-article-new p {
-		color: #686868;
-		
-	}
-	
-	.right-article-new p {
-		color: #686868;
-		
-	}
-	
-	.right-image {
-		width:auto;
-		padding: 80px 70px 0px 10px;
-		background-size: 800px;		
-	}
-	
-	.clear {
-    clear: both;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/* ----------- Education -----------  */
-	
-	
-	.education {
-	display: inline-block;
-	margin: 80px -4px 0px 0px;
-	/*margin-bottom: 10px; */
-	padding-top: 40px;
-	height: 400px;
-	width: 717px;
-	font-size: 24px;
-	color: #f1f1f1;
-	text-align: center;
-	background-color: #36AAD5;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
-	
-	
-	.experience {
-	display: inline-block; 	
-	padding-top: 40px;
-	height: 400px;
-	width: 718px;
-	font-size: 24px;
-	color: #686868;
-	text-align: center;
-	background-color: #D4D4D4;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
-	
-	.education-new {
-	display: inline-block;
-	margin: 80px -4px 0px 0px;
-	/*margin-bottom: 10px; */
-	padding-top: 40px;
-	height: 400px;
-	width: 717px;
-	font-size: 24px;
-	color: #686868;
-	text-align: center;
-	background-color: #D4D4D4;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
-	
-	
-	.experience-new {
-	display: inline-block; 	
-	padding-top: 40px;
-	height: 400px;
-	width: 718px;
-	font-size: 24px;
-	color: #f1f1f1;
-	text-align: center;
-	background-color: #36AAD5;
-	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
-	}
-
 	
 	/* ----------- Footer -----------  */
 
