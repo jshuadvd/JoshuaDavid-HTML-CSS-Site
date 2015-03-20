@@ -438,7 +438,7 @@
 	}
 	
 	
-	/* ----------- Learn and Serve -----------  */
+	/* ----------- To be a software craftsman -----------  */
 	
 	
 	.left-article-new {
@@ -488,15 +488,15 @@
 	}
 	
 	
-	/* ----------- Learn and Serve -----------  */
+	/* ----------- Goals and Completeion Evidence -----------  */
 	
 	
-	.education-new {
+	.goals {
 	display: inline-block;
 	margin: 80px -4px 0px 0px;
 	/*margin-bottom: 10px; */
 	padding-top: 40px;
-	height: 400px;
+	height: 540px;
 	width: 717px;
 	font-size: 24px;
 	color: #686868;
@@ -505,11 +505,21 @@
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
 	
+	.goals li {
+	font-size: 24px;
+	color: #686868;
+	text-align: left;
+	padding-left: 60px;
+	list-style-type: initial;
+	list-style-position: inside;
+	margin-left: -40px;
+	} 
 	
-	.experience-new {
+	
+	.completion {
 	display: inline-block; 	
 	padding-top: 40px;
-	height: 400px;
+	height: 540px;
 	width: 718px;
 	font-size: 24px;
 	color: #f1f1f1;
