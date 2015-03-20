@@ -40,17 +40,14 @@
 	h6 {
 	font-size: 12px;
 	}
+	
+	
 		
 	/* ----------- Navigation / Header -----------  */	
 				
 	.container {
 	background: url(http://i.imgur.com/w1T59Du.jpg) no-repeat center;
 	height: 508px;
-	}
-	
-	
-	#fake_nav {
-   /* position: fixed; */
 	}
 	
 	
@@ -483,8 +480,8 @@
 	
 	.right-image {
 		width:auto;
-		padding: 80px 70px 0px 10px;
-		background-size: 800px;		
+		padding: 80px 70px 0px 0px;
+		margin-right: 40px;
 	}
 	
 	
