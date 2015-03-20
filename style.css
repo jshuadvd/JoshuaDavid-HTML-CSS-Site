@@ -446,6 +446,11 @@
 	display: block;
 	padding: 60px 20px 10px 40px;	
 	}
+	
+	.left-article-divided {
+	margin: 0px ;
+	font-size: 15.5px;	
+	}
 		
 		
 	.right-column {
@@ -459,6 +464,11 @@
 	margin: 0px ;
 	display: block;	
 	padding: 0px 0px 0px 40px;	
+	}
+	
+	.right-article-divided {
+	margin: 0px ;
+	font-size: 15.5px;	
 	}
 	
 	.left-article-new p {
