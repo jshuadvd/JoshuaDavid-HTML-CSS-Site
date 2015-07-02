@@ -1,56 +1,56 @@
 	/* ----------- Begin CSS -----------  */
-	
+
 	body {
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;	
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 	margin: 0px;
 	background-color: #f1f1f1;
 	}
-	
+
 	h1 {
 	color: #35acd7;
 	font-size: 52px;
 	font-weight: 700;
 	margin: 0;
 	}
-	
+
 	h2 {
 	font-size: 42px;
-	
+
 	}
-	
-	
+
+
 	h3 {
 	font-size: 30px;
 	margin: 0px;
 	color: #686868;
 	padding-top: 10px;
 	}
-	
-	
+
+
 	h4 {
 	font-size: 22px;
 	}
-	
-	
+
+
 	h5 {
 	font-size: 18px;
 	}
-	
-	
+
+
 	h6 {
 	font-size: 12px;
 	}
-	
-	
-		
-	/* ----------- Navigation / Header -----------  */	
-				
+
+
+
+	/* ----------- Navigation / Header -----------  */
+
 	.container {
 	background: url(http://i.imgur.com/w1T59Du.jpg) no-repeat center;
 	height: 508px;
 	}
-	
-	
+
+
 	.nav {
     left: 0;
     min-width: 1160px;
@@ -59,14 +59,14 @@
     width: 100%;
     z-index: 99;
 	}
-	
-	
+
+
 	.nav-container {
     margin: 0 auto;
     width: 1160px;
 	}
-	
-	
+
+
 	.nav ul {
     display: block;
     float: right;
@@ -74,11 +74,11 @@
     padding: 28px 0 0;
     position: relative;
 	}
-	
+
 
 	ol, ul {
     list-style: outside none none;
-	}	
+	}
 
 
 	.nav ul li {
@@ -87,8 +87,8 @@
     margin: 0 0 0 25px;
     padding: 0;
 	}
-	
-	
+
+
 	.nav ul li a {
     color: #f1f1f1;
     display: block;
@@ -99,22 +99,22 @@
     text-decoration: none;
     text-transform: uppercase;
 	}
-	
+
 	.nav ul li a:hover {
     color: #35acd7;
-    
+
 	}
-	
-	
+
+
 	/* ----------- Main -----------  */
-	
-	
-	
+
+
+
 	.bio-pic {
 	padding: 38px;
 	}
-	
-	
+
+
 	.circular-image {
 	width: 270px;
 	height: 270px;
@@ -127,26 +127,26 @@
 	background-color: #D4D4D4;
 	margin-top: 318px
 	}
-	
-	
+
+
 	.name {
 	margin: 180px 0px 40px 0px;
 	}
-	
+
 	.attr {
 	margin-bottom: 0px;
 	      }
-	
+
 	.column1 {
 	display: inline-block;
 	width: 400px;
 	height: 60px;
 	background-color:#D4D4D4;
 	margin: 40px 20px 10px 0px;
-	
+
 	/*border: .5em solid white; */
 	}
-	
+
 	.column2 {
 	display: inline-block;
 	width: 400px;
@@ -155,7 +155,7 @@
 	margin: 40px 20px 10px 20px;
 	/*border: .5em solid white; */
 	}
-	
+
 	.column3 {
 	display: inline-block;
 	width: 400px;
@@ -164,21 +164,21 @@
 	margin: 40px 0px 10px 20px;
 	/*border: .5em solid white; */
 	}
-	
+
 	.column4 {
 	display: inline-block;
 	width: 400px;
 	height: 300px;
 	background-color:#D4D4D4;
 	margin: 0px 20px 0px 0px;
-	/*border: .5em solid white; */	
+	/*border: .5em solid white; */
 	}
-	
+
 	.column4 ul {
 	padding-left: 30px;
-	/*border: .5em solid white; */	
+	/*border: .5em solid white; */
 	}
-	
+
 	.column5 {
 	display: inline-block;
 	width: 400px;
@@ -187,13 +187,13 @@
 	margin: 0px 20px 0px 20px;
 	/*border: .5em solid white; */
 	}
-	
+
 	.column5 ul {
 	padding-left: 55px;
-	/*border: .5em solid white; */	
+	/*border: .5em solid white; */
 	}
-	
-	
+
+
 	.column6 {
 	display: inline-block;
 	width: 400px;
@@ -202,13 +202,13 @@
 	margin: 0px 0px 0px 20px;
 	/*border: .5em solid white; */
 	}
-	
+
 	.column6 ul {
 	padding-left: 105px;
-	/*border: .5em solid white; */	
+	/*border: .5em solid white; */
 	}
-	
-	
+
+
 	.contents li {
 	font-size: 24px;
 	color: #686868;
@@ -218,25 +218,25 @@
 	list-style-position: inside;
 	margin-left: -40px;
 	}
-	
-	
+
+
 	.about-me {
 	margin-top: 80px;
-	padding-bottom: 30px; 
+	padding-bottom: 30px;
 	padding-top: 40px;
-	height: 400px;
+	height: 360px;
 	font-size: 24px;
 	color: #f1f1f1;
 	text-align: center;
 	background-color: #36AAD5;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
-	
-	
-	
+
+
+
 	/* ----------- Actual Education Section -----------  */
-	
-	
+
+
 	.more-about-me {
 	padding-top: 40px;
 	height: 360px;
@@ -246,32 +246,32 @@
 	background-color: #D4D4D4;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
-	
-	
-	
+
+
+
 	/* ----------- Experience Timeline -----------  */
-	
-	
+
+
 	.experience-container .grid_12 {
     width: 1170px;
     margin-top: 70px;
     margin-bottom: 90px;
 	}
-	
-	
-	
+
+
+
 	ul.flaTimeline, ul.flaTimeline li.event div {
     box-sizing: border-box;
     padding: 0;
 	}
-	
+
 	ul.flaTimeline {
     border-top: 6px solid #D4D4D4;
     display: table;
     table-layout: fixed;
     width: 100%;
 	}
-	
+
 	ul.flaTimeline li.event {
     clear: both;
     display: table-header-group;
@@ -281,16 +281,16 @@
 
 	ul.flaTimeline li.event .date {
     text-align: left;
-    width: 50%;   
-    padding-right: 10px;   
- 
+    width: 50%;
+    padding-right: 10px;
+
 	}
-	
-	
+
+
 	ul.flaTimeline li.event .date, ul.flaTimeline li.event .circle, ul.flaTimeline li.event .contentWrapper {
     display: table-cell;
 	}
-	
+
 	ul.flaTimeline, ul.flaTimeline li.event div {
     box-sizing: border-box;
     padding: 0;
@@ -300,11 +300,11 @@
     border-left: 6px solid #D4D4D4;
     padding-left: 10px;
 	}
-	
+
 	ul.flaTimeline li.event .date, ul.flaTimeline li.event .circle, ul.flaTimeline li.event .contentWrapper {
     display: table-cell;
 	}
-	
+
 	ul.flaTimeline, ul.flaTimeline li.event div {
     box-sizing: border-box;
     padding: 0;
@@ -319,82 +319,101 @@
     margin: 30px 0 30px -25px;
     width: 24px;
 	}
-	
+
 	ul.flaTimeline li.event .date, ul.flaTimeline li.event .circle, ul.flaTimeline li.event .contentWrapper {
     display: table-cell;
 	}
-	
+
 	ul.flaTimeline, ul.flaTimeline li.event div {
     box-sizing: border-box;
     padding: 0;
 	}
-	
+
 	.contentWrapper p {
 	font-size: large;
 	color: #686868;
 	margin-left: 30px;
-	margin-top: 20px; 	
-		
+	margin-top: 20px;
+
 	}
-	
+
 	.exp-title h3 {
 	position:relative;
 	margin: 30px ;
 	top: .48em;
 	}
-	
-		
+
+
+  	/* ----------- Programming Experience -----------  */
+
+
+	/*.pro-about-me {
+		margin: 0px ;
+		height: 400px;
+		display: inline-block;
+		padding: 70px 40px 0px 40px;
+		font-size: large;
+		}*/
+
+		.pro-about-me {
+			height: 400px;
+			font-size: 24px;
+			color: #686868;
+			text-align: center;
+			padding: 40px 80px 50px 80px;
+	}
+
 		/* ----------- Information -----------  */
-	
-	
+
+
 	.left-article {
 	margin: 0px ;
 	width: 40%;
-	height: 500px;
+	height: 460px;
 	float: left;
-	display: inline-block;	
-	padding: 70px 40px 0px 40px;	
+	display: inline-block;
+	padding: 70px 40px 0px 40px;
 	margin-bottom: -140px;
 	}
-		
-	
+
+
 	.right-article {
 	margin: 0px ;
 	width: 42%;
-	height: 500px;
+	height: 460px;
 	float:right;
-	display: inline-block;	
+	display: inline-block;
 	padding: 70px 40px 0px 20px;
 	margin-bottom: -140px;
 	}
-	
+
 	.left-article p {
 		color: #686868;
-		
+
 	}
-	
+
 	.right-article p {
 		color: #686868;
-		
+
 	}
-	
+
 	.left-column {
 		width: 718px;
 		float: left;
 
-	}		
+	}
 
-	
+
 	.clear {
     clear: both;
 	}
-	
-	
-	
-	
+
+
+
+
 	/* ----------- Learn and Serve -----------  */
-	
-	
+
+
 	.learning {
 	display: inline-block;
 	margin: 80px -4px 0px 0px;
@@ -408,16 +427,16 @@
 	background-color: #36AAD5;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
-	
+
 	.learning p {
-	margin: 0;	
+	margin: 0;
 	padding: 0px 40px;
-		
+
 	}
-	
-	
+
+
 	.serving {
-	display: inline-block; 	
+	display: inline-block;
 	padding-top: 40px;
 	height: 500px;
 	width: 718px;
@@ -427,67 +446,67 @@
 	background-color: #D4D4D4;
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.05);
 	}
-	
+
 	.serving p {
-	margin: 0;	
+	margin: 0;
 	padding: 0px 40px;
-		
+
 	}
-	
-	
+
+
 	/* ----------- To be a software craftsman -----------  */
-	
-	
+
+
 	.left-article-new {
 	margin: 0px ;
 	display: block;
-	padding: 60px 20px 10px 40px;	
+	padding: 60px 20px 10px 40px;
 	}
-	
+
 	.left-article-divided {
 	margin: 0px ;
-	font-size: 15.5px;	
+	font-size: 15.5px;
 	}
-		
-		
+
+
 	.right-column {
 		margin: 0px;
 		width: 700px;
 		float: right;
 	}
-		
-	
+
+
 	.right-article-new {
 	margin: 0px ;
-	display: block;	
-	padding: 0px 0px 0px 40px;	
+	display: block;
+	padding: 0px 0px 0px 40px;
 	}
-	
+
 	.right-article-divided {
 	margin: 0px ;
-	font-size: 15.5px;	
+	font-size: 15.5px;
 	}
-	
+
 	.left-article-new p {
 		color: #686868;
-		
+
 	}
-	
+
 	.right-article-new p {
 		color: #686868;
-		
+
 	}
-	
+
 	.right-image {
 		width:auto;
 		padding: 80px 70px 0px 0px;
 		margin-right: 40px;
 	}
-	
-	
+
+
 	/* ----------- Goals and Completeion Evidence -----------  */
-	
-	
+
+
 	.goals {
 	display: inline-block;
 	margin: 80px -4px 0px 0px;
@@ -500,7 +519,7 @@
 	text-align: center;
 	background-color: #D4D4D4;
 	}
-	
+
 	.goals li {
 	font-size: 23px;
 	color: #686868;
@@ -509,13 +528,13 @@
 	list-style-type: initial;
 	list-style-position: inside;
 	margin-left: -40px;
-	} 
-	
-	
-	
-	
+	}
+
+
+
+
 	.completion {
-	display: inline-block; 	
+	display: inline-block;
 	padding-top: 40px;
 	height: 580px;
 	width: 718px;
@@ -524,70 +543,70 @@
 	text-align: center;
 	background-color: #36AAD5;
 	}
-	
+
 	.completion p {
 	margin: 0px 20px;
-	font-size: 23px;		
+	font-size: 23px;
 	}
-	
-	
+
+
 	.clear {
     clear: both;
 	}
-	
-	
-	
+
+
+
 	/* ----------- Ethical Values Hex -----------  */
-	
-	
+
+
 	.hex-image  {
 		padding-top: 40px;
 	}
-	
-	
+
+
 	.hexy-hex {
 	position: relative;
 	margin-top: 60px;
 	height: 900px;
-		
+
 	}
-		
+
 	.hexy-hex-2 {
 	position: relative;
-	top: -45px;	
+	top: -45px;
 	}
-	
+
 	.hexy-hex-3 {
 	position: relative;
-	top: -45px;	
+	top: -45px;
 	}
-	
+
 	.hexy-hex-4 {
 	position: relative;
-	top: -45px;	
+	top: -45px;
 	}
-	
+
 	.hexy-hex-5 {
 	position: relative;
-	top: -45px;	
-	}	
-	
+	top: -45px;
+	}
+
 	.lt-blue-hex {
-	margin: 0px;				
+	margin: 0px;
 	}
-	
-	
+
+
 	.drk-grey-hex {
-	margin: 0px;		
+	margin: 0px;
 	}
-	
+
 	.lt-grey-hex {
-	margin: 0px;			
+	margin: 0px;
 	}
-	
+
 	/* ----------- Hex Hover -----------  */
-	
-	
+
+
 	#Spirituality {
 	background-image: url('http://i.imgur.com/DPTzosk.png');
 	height: 200px;
@@ -597,7 +616,7 @@
 	#Spirituality:hover {
 	background-image: url('http://i.imgur.com/Ha9YgEG.png');
 	}
-	
+
 	#Honesty {
 	display: inline-block;
 	position: relative;
@@ -620,8 +639,8 @@
 
 	#Innovation:hover {
 	background-image: url('images/grey-innovation.png');
-	} 
-	
+	}
+
 	#Love {
 	display: inline-block;
 	position: relative;
@@ -644,8 +663,8 @@
 
 	#Respect:hover {
 	background-image: url('images/blue-respect.png');
-	} 
-	
+	}
+
 	#Drive {
 	display: inline-block;
 	position: relative;
@@ -657,8 +676,8 @@
 	#Drive:hover {
 	background-image: url('images/dark-grey-drive.png');
 	}
-	
-	
+
+
 	#Honor {
 	display: inline-block;
 	background-image: url('images/blue-hex-up-sm.png');
@@ -668,8 +687,8 @@
 
 	#Honor:hover {
 	background-image: url('images/blue-honor.png');
-	} 
-	
+	}
+
 	#Devotion {
 	display: inline-block;
 	position: relative;
@@ -681,7 +700,7 @@
 	#Devotion:hover {
 	background-image: url('images/dark-grey-devotion.png');
 	}
-	
+
 	#Integrity {
 	display: inline-block;
 	position: relative;
@@ -693,7 +712,7 @@
 	#Integrity:hover {
 	background-image: url('images/grey-integrity.png');
 	}
-	
+
 	#Wisdom {
 	display: inline-block;
 	background-image: url('images/blue-hex-up-sm.png');
@@ -703,7 +722,7 @@
 
 	#Wisdom:hover {
 	background-image: url('images/blue-wisdom.png');
-	} 
+	}
 
 	#Passion {
 	display: inline-block;
@@ -716,7 +735,7 @@
 	#Passion:hover {
 	background-image: url('images/dark-grey-passion.png');
 	}
-	
+
 	#Virtue {
 	display: inline-block;
 	position: relative;
@@ -728,7 +747,7 @@
 	#Virtue:hover {
 	background-image: url('images/grey-virtue.png');
 	}
-	
+
 	#Perseverence {
 	display: inline-block;
 	background-image: url('images/blue-hex-up-sm.png');
@@ -738,9 +757,9 @@
 
 	#Perseverence:hover {
 	background-image: url('images/blue-perseverence.png');
-	} 
-	
-	
+	}
+
+
 	#Humility {
 	display: inline-block;
 	position: relative;
@@ -752,7 +771,7 @@
 	#Humility:hover {
 	background-image: url('images/grey-humility.png');
 	}
-	
+
 	#Giving {
 	display: inline-block;
 	position: relative;
@@ -765,8 +784,8 @@
 	background-image: url('images/dark-grey-giving.png');
 	}
 
-	
-	
+
+
 	/* ----------- Footer -----------  */
 
 
@@ -777,61 +796,61 @@
     width: 100%;
     height: 300px;
 	}
-	
+
 	#footer strong {
     color: #D4D4D4;
 	}
-	
+
 	#footer p a {
     color: #36AAd5;
 	}
-	
+
 	a {
     color: #333;
     text-decoration: none;
-	}	
-	
+	}
+
 	footer-container {
     margin: 0 auto;
     width: 1260px;
 	}
-	
+
 	.footer-container p {
-	color: #D4D4D4;	
-		
+	color: #D4D4D4;
+
 	}
-	
+
 	#footer .col_contact {
 	display: inline-block;
     padding-bottom: 30px;
     width: 370px;
     margin: 0px 10px 0px 75px;
 	}
-	
-	
+
+
 	#quoteoftheday  {
 	font-size: 24px;
 	font-weight: 700;
-	position: relative;	
-		
+	position: relative;
+
 	}
-	
+
 	.quote {
 	position: relative;
 	bottom: 16px;
-		
+
 	}
-	
+
 	.social-media-icons {
 	width: 450px;
-	padding: 101px 80px 0px 0px; 
+	padding: 101px 80px 0px 0px;
 	display: inline-block;
 	position: relative;
 	bottom: 50px;
 	right: 45px;
-	
+
 	}
-		
+
 	#linkedin {
 	display:  inline-block;
 	position: relative;
@@ -844,9 +863,9 @@
 	#linkedin:hover {
 	background-image: url('images/linkedin_circle_black-44-blue.png');
 	}
-	
+
 	#github {
-	display: inline-block;	
+	display: inline-block;
 	position: relative;
 	background-image: url('images/githubl_circle_black-64.png');
 	margin: 0px 15px 0px 15px;
@@ -860,7 +879,7 @@
 	#github:hover {
 	background-image: url('images/githubl_circle_black-64-blue.png');
 	}
-	
+
 	#google-plus {
 	display: inline-block;
 	position: relative;
@@ -873,38 +892,38 @@
 	#google-plus:hover {
 	background-image: url('images/google-plus-64-blue.png');
 	}
-	
-		
+
+
 	.clear {
     clear: both;
 	}
-	
-	
+
+
 	/* ----------- Footer Navigation -----------  */
-	
-	
+
+
 	.footer-nav {
     width: 100%;
 	}
-	
-	
+
+
 	.footer-nav-container {
     margin: 0px auto;
     width: 1160px;
 	}
-	
-	
+
+
 	.footer-nav ul {
     display: block;
     margin: 0;
     padding: 28px 0 20px 0;
 
 	}
-	
+
 
 	ol, ul {
     list-style: outside none none;
-	}	
+	}
 
 
 	.footer-nav ul li {
@@ -913,8 +932,8 @@
     margin: 0 0 0 25px;
     padding: 0;
 	}
-	
-	
+
+
 	.footer-nav ul li a  {
     color: #f1f1f1;
     display: block;
@@ -925,16 +944,8 @@
     text-decoration: none;
     text-transform: uppercase;
 	}
-	
+
 	.footer-nav ul li a:hover {
     color: #35acd7;
-    
+
 	}
-	
-	
-	
-	
-
-
-
-
